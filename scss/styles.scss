@@ -278,6 +278,23 @@ footer {
     }
 }
 
+
+.btn-rounded-mini {
+    display: inline-block;
+    color: $base-color;
+    padding: 0px 5px;
+    border: 3px solid $base-color;
+    border-radius: 30px;
+    background-color: #fff;
+    @include transition();
+
+    &:hover {
+        color: #fff;
+        background: $base-color;
+        text-decoration: none;
+    }
+}
+
 .shadow {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -430,6 +447,13 @@ footer {
     }
 }
 
+// .self-img{
+//     border: 1px solid #ddd;
+//     border-radius: 4px;
+//     padding: 5px;
+//     width: 350px;
+// }
+
 /*
     --------------------------------
     ----- 6. Experience Styles -----
@@ -541,6 +565,9 @@ footer {
     color: #374054;
 }
 
+#awards{
+    margin-left: 5%;
+}
 /*
     -------------------------------
     ----- 7. Education Styles -----
@@ -669,6 +696,7 @@ footer {
 #dual-link{
     display: flex;
     justify-content: space-around;
+    margin-top: 1%;
 }
 /*
     -------------------------------
